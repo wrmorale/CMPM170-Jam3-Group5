@@ -19,7 +19,7 @@ public class KeyManager : MonoBehaviour
     {
         if (keys[1] && keys[2] && keys[3])
         {
-            SceneManager.LoadScene("PrototypeScene");
+            //SceneManager.LoadScene("PrototypeScene");
             Debug.Log("Success");
         }
     }
