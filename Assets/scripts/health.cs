@@ -7,19 +7,20 @@ public class health : MonoBehaviour
 {
     public float curHealth = 0;
     public int maxHealth = 100;
-    private Slider slider;
+    public Slider slider;
     public float max = 0;
     public float speed = 0.5f;
+    public Item item;
 
     private void Awake(){
         slider = gameObject.GetComponent<Slider>();
     }
 
-    void Start()
+    /*void Start()
     {
         curHealth =  increment(0.33f, 1);
         curHealth = increment(0.33f, 2);
-    }
+    }*/
 
     void Update()
     {
