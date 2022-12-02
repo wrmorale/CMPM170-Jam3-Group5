@@ -5423,13 +5423,14 @@ GameObject:
   - component: {fileID: 1904321929}
   - component: {fileID: 1904321931}
   - component: {fileID: 1904321930}
+  - component: {fileID: 1904321932}
   m_Layer: 5
   m_Name: HealthBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1904321929
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5466,7 +5467,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   curHealth: 0
   maxHealth: 100
-  slider: {fileID: 0}
+  slider: {fileID: 1904321931}
   max: 0
   speed: 0.5
   item: {fileID: 0}
@@ -5521,6 +5522,23 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1904321932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1904321928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d2f9b430133598499a83f621c6f6cb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Items: []
+  InventoryContent: {fileID: 0}
+  InventoryItem: {fileID: 0}
+  ct: 0
+  progress: {fileID: 0}
 --- !u!1001 &1911580285
 PrefabInstance:
   m_ObjectHideFlags: 0
