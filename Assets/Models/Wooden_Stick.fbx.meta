@@ -1,7 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 3e9e68145181c77419a1fb40df10d2f2
 ModelImporter:
   serializedVersion: 21300
+=======
+guid: 4605443e394da5b4ea5d895ae44be339
+ModelImporter:
+  serializedVersion: 21202
+>>>>>>> ceca7c3afe7be829356901deb7a22fc09cd01863
   internalIDToNameTable: []
   externalObjects: {}
   materials:
@@ -56,7 +62,11 @@ ModelImporter:
     skinWeightsMode: 0
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
+<<<<<<< HEAD
     optimizeBones: 1
+=======
+    optimizeBones: 0
+>>>>>>> ceca7c3afe7be829356901deb7a22fc09cd01863
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
@@ -99,7 +109,10 @@ ModelImporter:
   humanoidOversampling: 1
   avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+<<<<<<< HEAD
   remapMaterialsIfMaterialImportModeIsNone: 0
+=======
+>>>>>>> ceca7c3afe7be829356901deb7a22fc09cd01863
   additionalBone: 0
   userData: 
   assetBundleName: 

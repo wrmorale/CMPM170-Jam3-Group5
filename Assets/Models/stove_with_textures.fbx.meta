@@ -1,15 +1,14 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-guid: 35f5423a8e35e274da40704854d21c76
-ModelImporter:
-  serializedVersion: 21300
-=======
-guid: 3e000ccf9dd7899419b931dfeade9149
+guid: fb8c29e799ec6724c9188d332fb54459
 ModelImporter:
   serializedVersion: 21202
->>>>>>> ceca7c3afe7be829356901deb7a22fc09cd01863
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: stove_texture
+    second: {fileID: 2800000, guid: 20eb6314052717c49b175b5015d9166c, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -62,11 +61,7 @@ ModelImporter:
     skinWeightsMode: 0
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
-<<<<<<< HEAD
-    optimizeBones: 1
-=======
     optimizeBones: 0
->>>>>>> ceca7c3afe7be829356901deb7a22fc09cd01863
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
@@ -109,10 +104,6 @@ ModelImporter:
   humanoidOversampling: 1
   avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
-<<<<<<< HEAD
-  remapMaterialsIfMaterialImportModeIsNone: 0
-=======
->>>>>>> ceca7c3afe7be829356901deb7a22fc09cd01863
   additionalBone: 0
   userData: 
   assetBundleName: 
