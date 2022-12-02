@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: KeyTest
   m_EditorClassIdentifier: 
   Var: ' Real Key'
+  id: 2
   Icon: {fileID: 21300000, guid: 7d49f66ee23511f4b99eeb253cd4e97e, type: 3}
