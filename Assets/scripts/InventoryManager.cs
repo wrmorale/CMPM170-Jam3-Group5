@@ -12,12 +12,35 @@ public class InventoryManager : MonoBehaviour
     public List<Item> Items = new List<Item>(); 
     public Transform InventoryContent;
     public GameObject InventoryItem;
+    public int ct = 0;
+
     private void Awake() {
         Instance = this;
     }
 
+
+    void Update()
+    {
+        Debug.Log(ct);
+        /*foreach (var item in Items){
+            if (item.id == 1)
+                ct += 1;
+            if (item.id == 2)
+                ct += 1;
+            if (item.id == 3)
+                ct += 1;
+        }*/
+        if (ct == 2)
+            Debug.Log("YES!");
+        
+    }
+
     public void Add(Item item){
         Items.Add(item);
+        if (item.id == 1)
+            ct += 1;
+        if (item.id == 2)
+            ct += 1;
     }
 
     public void list_items(){
