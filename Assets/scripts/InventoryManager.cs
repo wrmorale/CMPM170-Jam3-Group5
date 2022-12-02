@@ -13,6 +13,7 @@ public class InventoryManager : MonoBehaviour
     public Transform InventoryContent;
     public GameObject InventoryItem;
     public int ct = 0;
+    public health progress;
 
     private void Awake() {
         Instance = this;
@@ -21,7 +22,6 @@ public class InventoryManager : MonoBehaviour
 
     void Update()
     {
-        Debug.Log(ct);
         /*foreach (var item in Items){
             if (item.id == 1)
                 ct += 1;
@@ -30,7 +30,7 @@ public class InventoryManager : MonoBehaviour
             if (item.id == 3)
                 ct += 1;
         }*/
-        if (ct == 2)
+        if (ct == 3)
             Debug.Log("YES!");
         
     }
@@ -39,7 +39,11 @@ public class InventoryManager : MonoBehaviour
         Items.Add(item);
         if (item.id == 1)
             ct += 1;
+            //progress.curHealth = 0.33f;
+            //increment(0.33f, 1);
         if (item.id == 2)
+            ct += 1;
+        if (item.id == 3)
             ct += 1;
     }
 
