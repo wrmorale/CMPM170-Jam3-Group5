@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dd36850a3f8a3d4aa76512d5505ecb3, type: 3}
   m_Name: cheese
   m_EditorClassIdentifier: 
-  Var: cheese
-  id: 1
-  Icon: {fileID: 21300000, guid: be423a54b981d38428de82ad12534629, type: 3}
+  Var: Cheese
+  id: 4
+  Icon: {fileID: 21300000, guid: 7d49f66ee23511f4b99eeb253cd4e97e, type: 3}
