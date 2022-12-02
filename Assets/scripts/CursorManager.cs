@@ -24,9 +24,9 @@ public class CursorManager : MonoBehaviour
         add if statement for distance checking
         */
         float dist = Vector3.Distance(playerPos.position, objectPos.position);
-        Debug.Log("Distance to obj: "  + dist);
+        //Debug.Log("Distance to obj: "  + dist);
         if(dist <= 2.50f){
-            Debug.Log("Mouse is over GameObject.");
+            //Debug.Log("Mouse is over GameObject.");
             Cursor.SetCursor(cursorTexture, Vector2.zero, CursorMode.Auto);
         }else{
             Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
@@ -35,7 +35,7 @@ public class CursorManager : MonoBehaviour
     }
     
     void OnMouseExit(){
-        Debug.Log("Mouse is no longer on GameObject.");
+        //Debug.Log("Mouse is no longer on GameObject.");
         Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
     }
 }

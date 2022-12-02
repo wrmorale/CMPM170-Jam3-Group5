@@ -8,11 +8,20 @@ public class PickUp : MonoBehaviour
     [SerializeField] Transform holdArea;
     private GameObject heldObj;
     private Rigidbody heldObjRB;
+    public Item item;
 
     [Header("Physics Parameters")]
-    [SerializeField] private float pickupRange = 5.0f;
+    [SerializeField] private float pickupRange = 20.0f;
     [SerializeField] private float pickupForce = 150.0f;
 
+    void pickup(){
+        InventoryManager.Instance.Add(item);
+        Destroy(gameObject);
+    }
+
+    private void OnMouseDown(){
+        pickup();
+    }
     // Update is called once per frame
     private void Update()
     {
