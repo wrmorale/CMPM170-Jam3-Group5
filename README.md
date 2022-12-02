@@ -1,4 +1,2 @@
 # Group5-Jam3
- Jam 3 Game 
-
-Download: [House Lads Game.zip](https://github.com/wrmorale/CMPM170-Jam3-Group5/files/10140033/House.Lads.Game.zip)
+ Jam 3 Game
