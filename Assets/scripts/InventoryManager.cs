@@ -22,28 +22,24 @@ public class InventoryManager : MonoBehaviour
 
     void Update()
     {
-        /*foreach (var item in Items){
-            if (item.id == 1)
-                ct += 1;
-            if (item.id == 2)
-                ct += 1;
-            if (item.id == 3)
-                ct += 1;
-        }*/
-        if (ct == 3)
-            Debug.Log("YES!");
-        
+        if (ct == 3){
+            ct = 0;
+        }
     }
 
     public void Add(Item item){
         Items.Add(item);
         if (item.id == 1)
             ct += 1;
-            //progress.curHealth = 0.33f;
-            //increment(0.33f, 1);
         if (item.id == 2)
             ct += 1;
         if (item.id == 3)
+            ct += 1;
+        if (item.id == 4)
+            ct += 1;
+        if (item.id == 5)
+            ct += 1;
+        if (item.id == 6)
             ct += 1;
     }
 
