@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Var: Stick
   id: 3
-  Icon: {fileID: 21300000, guid: 0c6a2a64ca9f9c946a7dbbd1674cf5bd, type: 3}
+  Icon: {fileID: 21300000, guid: 7d49f66ee23511f4b99eeb253cd4e97e, type: 3}

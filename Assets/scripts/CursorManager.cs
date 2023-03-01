@@ -25,7 +25,7 @@ public class CursorManager : MonoBehaviour
         */
         float dist = Vector3.Distance(playerPos.position, objectPos.position);
         //Debug.Log("Distance to obj: "  + dist);
-        if(dist <= 2.50f){
+        if(dist <= 25f){
             //Debug.Log("Mouse is over GameObject.");
             Cursor.SetCursor(cursorTexture, Vector2.zero, CursorMode.Auto);
         }else{
